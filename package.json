@@ -1,0 +1,22 @@
+{
+  "name": "cypress_poc",
+  "version": "1.0.0",
+  "description": "POC de Automatizacion con Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run --browser chrome --spec cypress/integration/*.js",
+    "cypress:runChrome1": "cypress run --browser chrome --spec cypress/integration/1-getting-started/*spec.js",
+    "cypress:runChrome2": "cypress run --browser chrome --spec cypress/integration/2-advanced-examples/*spec.js",
+    "cypress:runChrome3": "cypress run --browser chrome --spec cypress/integration/3-TestUI/*spec.js",
+    "cypress:runChromeAPI": "cypress run --browser chrome --spec cypress/integration/3-TestAPI/*spec.js",
+    "cypress:runChromeHeadless": "cypress run --headless --browser chrome --spec cypress/integration/*spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-mochawesome-reporter": "^3.0.0",
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}

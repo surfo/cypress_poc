@@ -1,0 +1,13 @@
+{
+  "experimentalStudio": true,
+  "embeddedScreenshots": true,
+  "viewportWidth": 1024,
+  "viewportHeight": 1024,
+  
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true,
+    "reportPageTitle": "custom-title"
+  }
+}
