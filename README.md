@@ -1,3 +1,10 @@
+## Cypress
+
+- Clonar el proyecto
+```console
+
+```
+
 ## Cypress Windows
 
 ### - Verificar si esta instalado node
