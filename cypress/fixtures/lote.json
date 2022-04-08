@@ -1,5 +1,45 @@
-{
-    "barra1": "12345",
-    "barra2": "67890",
-    "barr3": "11223"
+[
+  {
+      "caso_prueba": " 3 Importes, 1 Pos 11 a 18 - 2 Pos 25 a 32 - 3 Pos 39 a 46 - 1ER VTO ",
+      "input_codBarra" : "948508092100010000160617000311720206000000000052002727742737",
+      "input_diaNegocio" : "08/09/2021", 
+      "output_importe": "100.0"
+  },
+  {
+      "caso_prueba": " 3 Importes, 1 Pos 11 a 18 - 2 Pos 25 a 32 - 3 Pos 39 a 46 - 2ER VTO ",
+      "input_codBarra" : "948507092100030922150921000200000206000000000052002727742734",
+      "input_diaNegocio" : "10/09/2021", 
+      "output_importe": "200.0"
+  },
+  {
+      "caso_prueba": " 3 Importes, 1 Pos 11 a 18 - 2 Pos 25 a 32 - 3 Pos 39 a 46 - 3ER VTO",
+      "input_codBarra" : "948507092100030922150921000311722209210003000052002727742735",
+      "input_diaNegocio" : "20/09/2021", 
+      "output_importe": "300.0"
+  },
+  {
+      "caso_prueba": " 3 Importes, 1 Pos 11 a 18 - 2 Pos 25 a 32 - 3 Pos 39 a 46 - DECIMALES",
+      "input_codBarra" : "948507092100030922150921000311722209210003000352002727742737",
+      "input_diaNegocio" : "20/09/2021", 
+      "output_importe": "300.03"
+  },
+  {
+      "caso_prueba": " 3 Importes, 1 Pos 11 a 18 - 2 Pos 25 a 32 - 3 Pos 39 a 46 - IMPORTE MIL",
+      "input_codBarra" : "948507092199999999150921000311722209219999999952002727742736",
+      "input_diaNegocio" : "20/09/2021", 
+      "output_importe": "999999.99"
+  },
+  {
+      "caso_prueba": " Pos 21 a 29 - IMPORTE MILLON ",
+      "input_codBarra" : "120009115766015486059999999993",
+      "input_diaNegocio" : "08/09/2021",
+      "output_importe": "9999999.99"
+  },
+  {
+      "caso_prueba": " Pos 21 a 29 - IMPORTE FIJO ",
+      "input_codBarra" : "949722092100000000150920000000001509200000000000000000000002",
+      "input_diaNegocio" : "08/09/2021",
+      "output_importe": "1000.0",
+      "_comment": "VER EL ERROR EN ESTE CASO, DIFIERE EL IMPORTE QUE MUESTRA EL DISENIO CON EL VALOR QUE SE REGISTRO EN LA BASE"        
   }
+]
