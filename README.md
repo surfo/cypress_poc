@@ -244,3 +244,17 @@ or
 - 3.1- npm install -g npx
 - 3.2- npx cypress install --force    --> Forzar la Instalaciòn
 - 3.3- npx cypress open
+
+
+### Actualizar Cypress
+
+- Por npm
+```console
+npm install --save-dev cypress@10.8.0
+```
+ó
+- Por yarn
+```console
+yarn upgrade cypress@10.8.0
+```
+ 
