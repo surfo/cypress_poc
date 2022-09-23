@@ -248,7 +248,12 @@ or
 
 ### Actualizar Cypress
 
-- Por npm
+- Bajar las dependencias del proyecto
+```console
+npm i
+```
+
+- Actualizar Por npm version especifica
 ```console
 npm install --save-dev cypress@10.8.0
 ```
@@ -257,4 +262,11 @@ npm install --save-dev cypress@10.8.0
 ```console
 yarn upgrade cypress@10.8.0
 ```
- 
+ó
+
+- Instalar la ultima version
+```console
+npm install -D cypress@latest
+```
+
+
